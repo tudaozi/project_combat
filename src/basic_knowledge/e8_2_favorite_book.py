@@ -8,3 +8,10 @@
 @Time: 2019/5/11 15:50
 @Desc: S
 """
+
+
+def favorite_book(title):
+    print(title + " " + "This is" + " " + "One of my favorite books is Alice in Wonderland.")
+
+
+favorite_book("python")
