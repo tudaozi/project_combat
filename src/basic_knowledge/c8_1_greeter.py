@@ -6,7 +6,7 @@
 @Project: basic_knowledge
 @File: c8_1_greeter.py
 @Time: 2019/5/11 15:50
-@Desc: S
+@Desc: 定义函数--最基础的函数
 """
 
 

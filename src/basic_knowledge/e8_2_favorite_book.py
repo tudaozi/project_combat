@@ -6,7 +6,7 @@
 @Project: basic_knowledge
 @File: e8_2_favorite_book.py
 @Time: 2019/5/11 15:50
-@Desc: S
+@Desc: 练习
 """
 
 
