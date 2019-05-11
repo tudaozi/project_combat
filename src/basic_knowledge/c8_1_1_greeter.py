@@ -3,8 +3,8 @@
 """
 @Author: STAURL.COM
 @Contact: admin@staurl.com
-@Project: project_combat
-@File: e8_2_favorite_book.py
+@Project: basic_knowledge
+@File: c8_1_1_greeter.py
 @Time: 2019/5/11 15:50
 @Desc: S
 """
