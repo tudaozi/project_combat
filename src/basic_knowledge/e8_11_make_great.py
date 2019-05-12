@@ -9,18 +9,24 @@
 @Desc: 不变的魔法师
 """
 
+# TODO(STAURL.COM): 此处描写注释文字
+
 list_magician = ['liuzhipeng', 'guojiefang', 'liuhaoran']
 
 
 def show_magicians(list_magicians):
     for print_magicians in list_magicians:
         print('\n' + print_magicians.title())
+        return print_magicians
 
 
 def make_great(magicians_name, typeface='the Great'):
-    for magician in magicians_name:
+    for magician in magicians_name[:]:
         print('\n' + magician.title() + ' ' + typeface)
+        return magicians_name
 
 
 show_magicians(list_magician)
+
 make_great(list_magician)
+print(list_magician)
