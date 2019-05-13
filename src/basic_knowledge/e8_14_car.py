@@ -11,6 +11,14 @@
 
 
 # TODO(STAURL.COM): 此处描写注释文字
-def make_car(manufacturer, model, **Accessories):
+def make_car(manufacturer, model, **accessories):
     buy_car = {}
-    buy_car['manufacturer']
+    buy_car['manufacturer_attributes'] = manufacturer
+    buy_car['model_attributes'] = model
+    for key, value in accessories.items():
+        buy_car[key] = value
+    return buy_car
+
+
+car = make_car('subaru', 'outback', color='blue', top_package='True')
+print(car)
